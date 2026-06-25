@@ -203,8 +203,8 @@ const POLICY = {
   immigration:{name:"Non-travel — Immigration / Visa", tiers:[
     {max:500, label:"$0 – $500", chain:["ramp"]},
     {max:5000, label:"$500 – $5K", chain:["ramp","mgr","hr"]},
-    {max:10000, label:"$5K – $10K", chain:["ramp","mgr","comp","tea"]},
-    {max:Infinity, label:"Over $10K", chain:["ramp","mgr","comp","tea","acct"]}
+    {max:10000, label:"$5K – $10K", chain:["ramp","mgr","hr","tea"]},
+    {max:Infinity, label:"Over $10K", chain:["ramp","mgr","hr","tea","acct"]}
   ]}
 };
 
